@@ -100,6 +100,18 @@ cd asg_9
 npm install 
 node index.js
 
+--------------------------bivise----------------------------------
+
+ nano file1.sh
+
+#!/bin/bash 
+while true 
+do 
+echo "Loop Running..." 
+done 
+chmod +x file1.sh
+./file1.sh
+
 
 
 
