@@ -3,14 +3,14 @@
 
 git config --global --unset-all user.name 
 git config --global user.name "sanjib994" 
- git config --global user. Email sghara200@gmail.com 
+ git config --global user.email "sghara200@gmail.com" 
  git config --global –list 
  git init 
  git add . 
  git status 
- git commit -m “” 
+ git commit -m “commit” 
  git remote add origin <path> 
- git push -u origin master 
+ git push -u origin master/main. 
 
 
 
@@ -56,7 +56,7 @@ systemctl start nginx
 systemctl enable nginx
 apt-get install -y git
 curl -sL https://deb.nodesource.com/setup_18.x| sudo -E bash
-apt-get install -y nodejs
+apt-get install -y nodejs   
 
 
 
