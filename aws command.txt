@@ -4,7 +4,7 @@
 git config --global --unset-all user.name 
 git config --global user.name "sanjib994" 
  git config --global user.email "sghara200@gmail.com" 
- git config --global –list 
+ git config --global -–list 
  git init 
  git add . 
  git status 
