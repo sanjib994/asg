@@ -85,5 +85,20 @@ cd ..
 sudo systemctl restart nginx
 
 
+-------------------------------asg11--------------------------
+#!/bin/bash 
+apt-get update 
+apt-get upgrade -y 
+apt-get install -y nginx 
+systemctl start nginx 
+systemctl enable nginx 
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash  
+apt-get install -y nodejs 
+git clone https://github.com/sanjib994/asg_9.git 
+cd asg_9 
+npm install 
+node index.js
+
+
 
 
