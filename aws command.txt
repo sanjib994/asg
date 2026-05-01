@@ -1,0 +1,74 @@
+
+------------------------------git hub command:---------------------------------------------------------
+
+git config --global --unset-all user.name 
+git config --global user.name "sanjib994" 
+ git config --global user. Email sghara200@gmail.com 
+ git config --global –list 
+ git init 
+ git add . 
+ git status 
+ git commit -m “” 
+ git remote add origin <path> 
+ git push -u origin master 
+
+
+
+
+------------------------------bitvise terminal command:--------------------------------------------------------
+
+assignmentno= 09
+
+
+sudo apt-get update && sudo apt-get upgrade
+
+sudo apt-get install nginx
+
+curl -SL https://deb.nodesource.com/setup_16.x | sudo -E bash
+
+sudo apt-get install -y nodejs
+
+node -v 
+npm -v
+
+git clone https://github.com/sanjib994/asg_9.git   [ it is different for everyone github repository] 
+
+cd asg_9     [ repositori name ] 
+
+npm install  
+
+node index.js
+ 
+
+
+
+
+
+
+
+---------------------------------assignment no =10----------------------------------
+
+#!/bin/bash
+apt-get update
+apt-get upgrade-y
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x| sudo -E bash
+apt-get install -y nodejs
+
+
+
+
+
+--------------------------asg12( run without port)----------------------------------------
+
+location / { 
+    proxy_pass http://localhost:4000; 
+    proxy_http_version 1.1; 
+    proxy_set_header Upgrade $http_upgrade; 
+    proxy_set_header Connection 'Upgrade'; 
+    proxy_set_header Host $host; 
+    proxy_cache_bypass $http_upgrade; 
+}
